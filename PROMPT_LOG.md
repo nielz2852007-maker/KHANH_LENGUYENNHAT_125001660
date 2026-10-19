@@ -3,7 +3,7 @@
 - **Họ và tên:** Lê Nguyễn Nhật Khánh
 - **MSSV:** 125001660
 - **Tên đề tài Website:** Landing Page Tri Ân Thầy Cô 20/11 — Ngày Nhà giáo Việt Nam
-- **Công cụ AI đã sử dụng:** opencode (mô hình big-pickle) — CLI agent lập trình trên terminal
+- **Công cụ AI đã sử dụng:** Antigravity và GEMINI ( KHAM KHẢO ) 
 
 ---
 
