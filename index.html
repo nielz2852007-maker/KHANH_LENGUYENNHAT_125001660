@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ngày Nhà giáo Việt Nam 20/11</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,32 +20,32 @@
       </ul>
     </nav>
     <div class="hero-content">
-      <p class="hero-date">20 · 11</p>
-      <h1>Ngày Nhà giáo Việt Nam</h1>
-      <p class="hero-sub">Tôn vinh những người thầy, người cô — người đã chắp cánh ước mơ cho biết bao thế hệ học sinh</p>
-      <a href="#loi-chuc" class="btn">Gửi lời tri ân 💐</a>
+      <p class="hero-date animate__animated animate__fadeInDown">20 · 11</p>
+      <h1 class="animate__animated animate__fadeInUp">Ngày Nhà giáo Việt Nam</h1>
+      <p class="hero-sub animate__animated animate__fadeInUp animate__delay-1s">Tôn vinh những người thầy, người cô — người đã chắp cánh ước mơ cho biết bao thế hệ học sinh</p>
+      <a href="#loi-chuc" class="btn animate__animated animate__zoomIn animate__delay-2s">Gửi lời tri ân 💐</a>
     </div>
   </header>
 
   <main>
     <section id="ve-ngay-le" class="section">
-      <h2>Về ngày lễ</h2>
+      <h2 data-aos="fade-up">Về ngày lễ</h2>
       <p class="section-intro">
         Ngày 20/11 là dịp để học trò cả nước bày tỏ lòng biết ơn sâu sắc đối với thầy cô giáo —
         những người đã tận tâm dạy dỗ, dìu dắt chúng ta trưởng thành.
       </p>
       <div class="cards">
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
           <div class="card-icon">📜</div>
           <h3>Lịch sử</h3>
           <p>Được lấy từ quyết định thành lập Hội Khuyến học Việt Nam ngày 28/9/1982. Từ năm 1982, ngày 20/11 trở thành ngày truyền thống của ngành giáo dục.</p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
           <div class="card-icon">💛</div>
           <h3>Ý nghĩa</h3>
           <p>Đây là dịp để toàn xã hội tri ân công lao dạy dỗ của thầy cô, đồng thời là ngày để học sinh suy ngẫm về giá trị của sự học.</p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
           <div class="card-icon">🎁</div>
           <h3>Hoạt động</h3>
           <p>Học sinh tặng hoa, thư tay, làm thiệp handmade và tổ chức các buổi gặp mặt tri ân thầy cô kính yêu.</p>
@@ -52,29 +54,29 @@
     </section>
 
     <section id="loi-chuc" class="section section-alt">
-      <h2>Những lời chúc ý nghĩa</h2>
+      <h2 data-aos="fade-up">Những lời chúc ý nghĩa</h2>
       <div class="quotes">
-        <blockquote>
+        <blockquote data-aos="zoom-in" data-aos-delay="100">
           "Kính chúc thầy cô luôn mạnh khỏe, hạnh phúc và mãi là ngọn đèn soi đường cho chúng con trên con đường tri thức."
         </blockquote>
-        <blockquote>
+        <blockquote data-aos="zoom-in" data-aos-delay="200">
           "Cảm ơn thầy cô vì đã không bao giờ bỏ cuộc khi chúng con còn nhiều thiếu sót. Nhờ thầy cô mà chúng con hôm nay tự tin hơn mỗi ngày."
         </blockquote>
-        <blockquote>
+        <blockquote data-aos="zoom-in" data-aos-delay="300">
           "Mỗi bài học của thầy cô là một viên gạch xây dựng tương lai. Chúc thầy cô 20/11 thật nhiều niềm vui!"
         </blockquote>
-        <blockquote>
+        <blockquote data-aos="zoom-in" data-aos-delay="400">
           "Thầy cô như người cha, người mẹ thứ hai dìu dắt chúng con khôn lớn. Con luôn biết ơn thầy cô!"
         </blockquote>
       </div>
     </section>
 
     <section id="loi-cam-on" class="section">
-      <h2>Lời cảm ơn</h2>
+      <h2 data-aos="fade-up">Lời cảm ơn</h2>
       <p class="section-intro">
         Không từ ngữ nào có thể diễn tả hết công ơn của thầy cô. Nhưng xin gửi gắm đôi dòng chân thành nhất:
       </p>
-      <div class="thankyou-box">
+      <div class="thankyou-box" data-aos="flip-up">
         <img src="assets/flower.svg" alt="Bó hoa tri ân" class="flower-img">
         <p>
           Thầy cô kính yêu!<br><br>
@@ -92,6 +94,15 @@
     <p class="footer-small">Liên hệ: lenguyenhatkhanh125001660@gmail.com</p>
     <p class="footer-small">© 2026 Lê Nguyễn Nhật Khánh — 125001660. All rights reserved.</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 100
+    });
+  </script>
 
 </body>
 </html>
